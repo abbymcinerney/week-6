@@ -1,9 +1,10 @@
+
 :root {
     font-size: 75.5;
     font-family: Montserrat, sans-serif;
 }
 
-h1{ 
+h1 { 
     font-size: 3.5rem;
     font-weight: 400;
     text-align: center;
@@ -34,8 +35,8 @@ hr {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit,
-    minmax (300px, 1fr));
+    grid-template-columns: repeat(auto-fit, 
+minmax (300px, 1fr));
     grid-gap: 1.5rem;
     grid-auto-rows: minmax(150px, auto);
 }
